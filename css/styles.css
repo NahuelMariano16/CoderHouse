@@ -161,7 +161,21 @@
 .imgGridHombre {
   max-width: 200px;
   max-height: 200px; }
+/*Git*/
+.contenedorMain{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.contenedorMain__h1{
+  align-items: center;
+  justify-content: center;
+}
 
+  
 @media screen and (max-width: 980px) {
   .footer {
     flex-direction: column;
