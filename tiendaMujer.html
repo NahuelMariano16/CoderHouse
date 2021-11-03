@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-light menu">
+                <div class="container-fluid">
+                  <a class="navbar-brand logo" href="index.html">Perez Shop</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Sobre Nosotros
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tienda
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item " href="tiendaHombre.html">Hombre</a></li>
+                          <li><a class="dropdown-item" href="tiendaMujer.html">Mujer</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Ofertas
+                          </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+
+
+    <main>
+      <div class="gridTiendas"> 
+        <div class="container gridContainer">
+          <div class="row row-cols-2">
+            <div class="col"><a href="https://w7.pngwing.com/pngs/543/84/png-transparent-shoe-woman-shoe-outdoor-shoe-sneakers-woman.png"><img class="img-fluid imgGridHombre" src="imagesTienda/zapatosMujer.png"></a></div>
+            <div class="col"><a href="https://d2r9epyceweg5n.cloudfront.net/stores/090/363/products/campera-de-mujer-keira-11-00f1a6e1bcc68bdd2b15613236489411-480-0.png"><img class="img-fluid imgGridHombre" src="/imagesTienda/camperaMujer.png"></a></div>
+            <div class="col"><a href="https://png.pngtree.com/png-vector/20200621/ourlarge/pngtree-corporate-woman-formal-suit-skirt-blazer-corporate-dress-code-png-image_2262956.jpg"><img class="img-fluid imgGridHombre" src="/imagesTienda/blazerMujer.jpg"></a></div>
+            <div class="col"><a href="https://w7.pngwing.com/pngs/214/159/png-transparent-jeans-clothing-trousers-slim-fit-pants-denim-women-s-jeans-fashion-clothing-accessories-womens-jeans-thumbnail.png"><img class="img-fluid imgGridHombre" src="/imagesTienda/pantalonMujer.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer class="container footer">
+            <div class="direccion"> Encontranos en:
+                <div><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52575.77117803427!2d-58.77141053045501!3d-34.55391748530981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sSan%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1633574566372!5m2!1ses-419!2sar" loading="lazy"></iframe>
+                </div>
+              </div>
+    
+    
+              <div class="contacto">Contacto:
+                <form action="archivo.php" method="POST"> 
+                    <label for="nombre">Nombre y Apellido: </label> 
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido"><br>
+                    <input type="radio" name="gender" value="masculino">Masculino
+                    <input type="radio" name="gender" value="femenino">Femenino <br>
+                    <label for="mail">e-Mail:</label>
+                    <input type="email" name="mail" placeholder="e-Mail"><br>
+                    <label for="motivo">Motivo</label>
+                    <select name="motivo" placeholder="">
+                        <option></option>
+                        <option value="consulta">Consulta</option>
+                        <option value="recomendacion">Recomendación</option>
+                    </select><br>
+                    <label for="consulta">Escribinos</label><br>
+                    <div>
+                        <input type="checkbox" name="ofertas">Deseo recibir ofertar en mi casilla de correo
+                    </div>
+                    <input type="text" name="consulta" placeholder="Escribinos"><br>
+                    <input type="submit" name="Enviar">
+                    <input type="reset" name="Restablecer">
+                </form>
+              </div>
+    
+              
+    </footer>
+
+
+
+</body>
+</html>

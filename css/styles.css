@@ -1,0 +1,191 @@
+/*Variables*/
+/*INDEX*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder; }
+
+#body {
+  background-color: white; }
+
+.formContainer {
+  display: flex;
+  padding: 20px;
+  margin-top: 70px;
+  height: 300px;
+  justify-content: center; }
+  .formContainer__suscribite {
+    width: 60%;
+    padding: 50px; }
+
+.redes {
+  width: 40%; }
+  .redes__enlace {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between; }
+
+.navbar {
+  background-image: linear-gradient(pink, white);
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
+.menu {
+  background-color: white; }
+
+.logo {
+  border-radius: 10px; }
+
+.dropdown-menu {
+  background-image: linear-gradient(pink, white 50%); }
+
+.footer {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: black;
+  display: flex;
+  padding: 10px;
+  height: 350px;
+  background-image: linear-gradient(transparent 80%, gray); }
+  .footer__direccion {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%; }
+  .footer__contacto {
+    padding: 10px;
+    width: 50%; }
+
+/*Bloques de Bootstrap*/
+.imageCarousel {
+  max-height: 700px; }
+
+.carouselContainer {
+  margin-top: 150px; }
+
+.carouselContainer .redes a {
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large; }
+
+.carouselContainer .redes a:hover {
+  background-image: linear-gradient(transparent, gray); }
+
+.nosotrosContainer {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 95%;
+  height: 800px; }
+  .nosotrosContainer__section {
+    width: 65%;
+    height: 95%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    white-space: pre-line; }
+  .nosotrosContainer__aside {
+    height: 95%;
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    white-space: pre-line; }
+
+/*TIENDAS*/
+.tiendaContainer {
+  display: flex;
+  width: 100%;
+  height: 750px;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 15px; }
+  .tiendaContainer__hombre {
+    width: 45%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center; }
+  .tiendaContainer__mujer {
+    width: 45%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center; }
+
+.img {
+  width: 100%;
+  min-height: 500px; }
+
+.textos {
+  text-align: center;
+  position: absolute;
+  transition: all .3s;
+  transform: scale(1.5);
+  opacity: 0;
+  justify-content: center;
+  align-items: center; }
+  .textos h1 {
+    color: white;
+    align-items: center;
+    margin: auto; }
+    .textos h1 a {
+      text-decoration: none;
+      color: white; }
+
+.textos:hover {
+  transform: scale(1);
+  opacity: 1;
+  background-image: linear-gradient(black, transparent); }
+
+/*Tienda Hombre y Mujer*/
+.gridTiendas {
+  width: 100%;
+  height: 550px; }
+
+.gridContainer {
+  width: 100%; }
+
+.imgGridHombre {
+  max-width: 200px;
+  max-height: 200px; }
+
+@media screen and (max-width: 980px) {
+  .footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  .direccion {
+    width: 100%; }
+  .contacto {
+    width: 100%; }
+  .suscribite {
+    width: 100%; } }
+
+@media screen and (min-width: 768px) {
+  .carouselInicio {
+    height: 400px; } }
+
+@media screen and (max-width: 768px) {
+  .tiendaContainer {
+    width: 100%;
+    height: 700px;
+    flex-direction: column; }
+  .tiendaContainer__hombre {
+    width: 100%;
+    height: 300px; }
+  .tiendaContainer__mujer {
+    width: 100%;
+    height: 300px; } }

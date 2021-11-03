@@ -1,0 +1,23 @@
+.nosotrosContainer{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 95%;
+    height: 800px;
+    &__section{
+        width: 65%;
+        height: 95%;
+        padding: 10px;
+        margin:auto;
+        text-align: center;
+        white-space:pre-line;
+    }                     
+    &__aside{
+        height: 95%;
+        width: 25%;
+        padding: 10px;
+        margin:auto;
+        text-align: center;
+        white-space:pre-line;
+    }
+}

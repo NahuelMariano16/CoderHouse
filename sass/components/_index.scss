@@ -1,0 +1,87 @@
+/*INDEX*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+#body{
+    background-color: $colorPrincipal;
+}
+.formContainer{
+    display: flex;
+    padding: 20px;
+    margin-top: 70px;
+    height: 300px;
+    justify-content: center;
+    &__suscribite{
+        
+    width: 60%;
+    padding: 50px;
+    }
+}
+.redes{
+    width: 40%;
+    &__enlace{
+        text-decoration: none;
+        color: black;
+        justify-content: space-between;
+    }
+}
+.navbar{
+    background-image: linear-gradient($colorSecundario,$colorPrincipal);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.menu{
+    background-color:$colorPrincipal;
+}
+.logo{
+    border-radius: 10px;
+}
+.dropdown-menu{
+    background-image: linear-gradient($colorSecundario,$colorPrincipal 50%);
+}
+.footer{
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: black;
+    display: flex;
+    padding: 10px;
+    height: 350px;
+   background-image: linear-gradient(transparent 80%,$colorSecundario2 );
+   &__direccion{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+   }
+   &__contacto{
+    padding: 10px;
+    width: 50%;
+   }
+}
+
+/*Bloques de Bootstrap*/
+.imageCarousel{
+    max-height: 700px;
+}
+
+
+.carouselContainer{
+    margin-top: 150px;
+}
+.carouselContainer .redes a{
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+.carouselContainer .redes a:hover{
+    background-image: linear-gradient(transparent,$colorSecundario2);
+
+}
