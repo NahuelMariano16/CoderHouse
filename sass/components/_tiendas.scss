@@ -54,3 +54,16 @@
     opacity: 1;
     background-image: linear-gradient(black,transparent);
 }
+.mapaDeSitio__tienda{
+    width: 85%;
+    margin: auto;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: pink;
+        border-radius: 5px;
+    }
+}

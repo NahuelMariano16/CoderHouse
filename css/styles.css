@@ -21,6 +21,17 @@
     width: 60%;
     padding: 50px; }
 
+.mapaDeSitio {
+  margin-bottom: 10px;
+  width: 85%;
+  margin: auto; }
+  .mapaDeSitio a {
+    text-decoration: none;
+    color: black; }
+  .mapaDeSitio a:hover {
+    background-color: pink;
+    border-radius: 5px; }
+
 .redes {
   width: 40%; }
   .redes__enlace {
@@ -66,7 +77,8 @@
   max-height: 700px; }
 
 .carouselContainer {
-  margin-top: 150px; }
+  margin-top: 150px;
+  min-height: 600px; }
 
 .carouselContainer .redes a {
   border-radius: 5px;
@@ -97,6 +109,17 @@
     margin: auto;
     text-align: center;
     white-space: pre-line; }
+
+.mapaDeSitio__nosotros {
+  width: 85%;
+  margin: auto;
+  text-decoration: none; }
+  .mapaDeSitio__nosotros a {
+    text-decoration: none;
+    color: black; }
+  .mapaDeSitio__nosotros a:hover {
+    background-color: pink;
+    border-radius: 5px; }
 
 /*TIENDAS*/
 .tiendaContainer {
@@ -150,6 +173,17 @@
   opacity: 1;
   background-image: linear-gradient(black, transparent); }
 
+.mapaDeSitio__tienda {
+  width: 85%;
+  margin: auto;
+  text-decoration: none; }
+  .mapaDeSitio__tienda a {
+    text-decoration: none;
+    color: black; }
+  .mapaDeSitio__tienda a:hover {
+    background-color: pink;
+    border-radius: 5px; }
+
 /*Tienda Hombre y Mujer*/
 .gridTiendas {
   width: 100%;
@@ -158,24 +192,10 @@
 .gridContainer {
   width: 100%; }
 
-.imgGrid{
+.imgGridHombre {
   max-width: 200px;
   max-height: 200px; }
-/*Git*/
-.contenedorMain{
-    width: 70%;
-    height: 300px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.contenedorMain__h1{
-  align-items: center;
-  justify-content: center;
-}
 
-  
 @media screen and (max-width: 980px) {
   .footer {
     flex-direction: column;
