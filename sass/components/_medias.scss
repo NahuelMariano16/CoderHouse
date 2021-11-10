@@ -7,72 +7,72 @@ footer{
     flex-direction: column;
     justify-content: space-around;
 }
-                        .footer__contacto{
-                          width: auto;
-                          margin: 10px;
-                          padding: 50px;
-                        }
-                        .footer__direccion{
-                          width: auto;
-                          margin: 10px;
-                          padding: 50px;
-                        }
-                        .container{
-                          height: auto;
-                          width: auto;
-                          margin-top: 50px;
-                        }
-                        .carouselContainer{
-                          height: auto;
-                          width: auto;
-                          margin-bottom: 50px;
-                          padding-bottom: 50px;
-                        }
-                      }
+.footer__contacto{
+  width: auto;
+  margin: 10px;
+  padding: 50px;
+}
+.footer__direccion{
+  width: auto;
+  margin: 10px;
+  padding: 50px;
+}
+.container{
+  height: auto;
+  width: auto;
+  margin-top: 50px;
+}
+.carouselContainer{
+  height: auto;
+  width: auto;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+}
                                             /*SOBRE NOSOTROS*/
-                      @media screen and (max-width:980px){
-                        .nosotrosContainer{
-                          height: auto;
-                          flex-direction: column;
-                          font-weight: bold;
-                        }
-                        .nosotrosContainer__section{
-                          width: auto;
-                          height: auto;
-                          font-weight: bold;
-                        }
-                        .nosotrosContainer__aside{
-                          width: auto;
-                          height: auto;
-                        }
-                      }
+@media screen and (max-width:980px){
+.nosotrosContainer{
+  height: auto;
+  flex-direction: column;
+  font-weight: bold;
+}
+.nosotrosContainer__section{
+  width: auto;
+  height: auto;
+  font-weight: bold;
+}
+.nosotrosContainer__aside{
+  width: auto;
+  height: auto;
+}
+}
                                             /*TIENDA*/
-                      @media screen and (max-width: 980px) {
-                        .tiendaContainer {
-                            display: flex;
-                            width: 100%;
-                            height: auto;
-                            flex-direction: column; 
-                            justify-content: space-between;
-                        }
-                        .tiendaContainer__hombre {
-                          width: 100%;
-                          height: auto; 
-                          margin: auto;
-                          padding:10px;
-                        }
-                        .tiendaContainer__mujer {
-                          width: 100%;
-                          height: auto; 
-                          margin: auto;
-                          padding:10px;
-                        } 
-                      }
+@media screen and (max-width: 980px) {
+.tiendaContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+.tiendaContainer__hombre {
+  width: 100%;
+  height: auto; 
+  margin: auto;
+  padding:10px;
+}
+.tiendaContainer__mujer {
+  width: 100%;
+  height: auto; 
+  margin: auto;
+  padding:10px;
+} 
+}
                                     /*BRANCH*/
-                      @media screen and (max-width: 980px){
-                        .contenedorMain{
-                          height: 300px;
-                          align-content: center;
-                          margin-top: 100px;
-                        }
-                      }
+@media screen and (max-width: 980px){
+.contenedorMain{
+  height: 300px;
+  align-content: center;
+  margin-top: 100px;
+}
+}
