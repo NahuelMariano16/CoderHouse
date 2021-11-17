@@ -65,8 +65,8 @@
     color: black;
     display: flex;
     padding: 10px;
-    height: 350px;
-   background-image: linear-gradient(transparent 80%,$colorSecundario2 );
+    height: auto;
+    background-image: linear-gradient(transparent 80%,$colorSecundario2 );
    &__direccion{
     justify-content: center;
     align-items: center;

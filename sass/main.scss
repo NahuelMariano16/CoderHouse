@@ -1,40 +1,8 @@
+@import'components/404';
 @import'base/variables';
 @import'components/index';
 @import'components/nosotros';
 @import'components/tiendas';
 @import'components/tiendaHyM.scss';
 @import'components/medias.scss';
-@media screen and (max-width: 980px){
-    .footer{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .direccion{
-        width: 100%;
-    }
-    .contacto{
-        width: 100%;
-    }
-    .suscribite{
-        width: 100%;
-    }
-}
-                 /*BRANCH*/
-.contenedorMain{
-    text-align: center;
-    margin: auto;
-    height: 500px;
-    margin-top: 50px;
-    .contenedorMain__h1{
-        justify-content: center;
-        margin-top: 50px;
-    }
-}
-.boton{
-    font-size: large;
-    a{
-        text-decoration: none;
-        color: black;
-    }
-}
+
