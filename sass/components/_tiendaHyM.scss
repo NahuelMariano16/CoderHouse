@@ -8,13 +8,15 @@
 
 }
 .imgGrid{
+    min-height: 200px;
+    min-width: 200px;
     max-width: 200px;
     max-height: 200px;
 }
 .carrito{
-    a{
         text-decoration: none;
         color: black;
         outline: none;
-    }
+        background-color: rgb(163, 160, 160);
+        border: 1px solid black;
 }

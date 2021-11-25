@@ -106,7 +106,6 @@ h1 {
 .footer {
   padding: 20px;
   margin-top: 20px;
-  margin-bottom: 50px;
   color: black;
   display: flex;
   padding: 10px;
@@ -146,13 +145,13 @@ h1 {
   height: 800px; }
   .nosotrosContainer__section {
     width: 65%;
-    height: 95%;
+    height: auto;
     padding: 10px;
     margin: auto;
     text-align: center;
     white-space: pre-line; }
   .nosotrosContainer__aside {
-    height: 95%;
+    height: auto;
     width: 25%;
     padding: 10px;
     margin: auto;
@@ -242,13 +241,17 @@ h1 {
   width: 100%; }
 
 .imgGrid {
+  min-height: 200px;
+  min-width: 200px;
   max-width: 200px;
   max-height: 200px; }
 
-.carrito a {
+.carrito {
   text-decoration: none;
   color: black;
-  outline: none; }
+  outline: none;
+  background-color: #a3a0a0;
+  border: 1px solid black; }
 
 /*INDEX*/
 @media screen and (max-width: 980px) {
@@ -265,6 +268,8 @@ h1 {
     width: auto;
     margin: 10px;
     padding: 50px; }
+    .footer__direccion .mapa {
+      width: 200px; }
   .container {
     height: auto;
     width: auto;
@@ -273,7 +278,12 @@ h1 {
     height: auto;
     width: auto;
     margin-bottom: 50px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+  .formContainer {
+    height: auto;
+    flex-direction: column; }
+    .formContainer .redes {
+      margin: auto; } }
 
 /*SOBRE NOSOTROS*/
 @media screen and (max-width: 980px) {
